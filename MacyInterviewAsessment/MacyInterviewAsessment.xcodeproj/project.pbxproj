@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037288521E2583D90025F162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 037288511E2583D90025F162 /* main.m */; };
+		037288551E2583D90025F162 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 037288541E2583D90025F162 /* AppDelegate.m */; };
+		037288581E2583D90025F162 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037288571E2583D90025F162 /* ViewController.m */; };
+		0372885B1E2583D90025F162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037288591E2583D90025F162 /* Main.storyboard */; };
+		0372885D1E2583D90025F162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0372885C1E2583D90025F162 /* Assets.xcassets */; };
+		037288601E2583D90025F162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0372885E1E2583D90025F162 /* LaunchScreen.storyboard */; };
+		037288691E2591AC0025F162 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 037288681E2591AC0025F162 /* DataModel.m */; };
+		0372886C1E2597050025F162 /* DataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0372886B1E2597050025F162 /* DataTableViewCell.m */; };
+		0372886F1E25AFCC0025F162 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0372886E1E25AFCC0025F162 /* DetailViewController.m */; };
+		037288721E25B1E40025F162 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 037288711E25B1E40025F162 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0C2CE2C1B820756B54640E39 /* libPods-MacyInterviewAsessment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6902C4B0AABA8B610678DA3 /* libPods-MacyInterviewAsessment.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0372884D1E2583D90025F162 /* MacyInterviewAsessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacyInterviewAsessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		037288511E2583D90025F162 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		037288531E2583D90025F162 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		037288541E2583D90025F162 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		037288561E2583D90025F162 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		037288571E2583D90025F162 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0372885A1E2583D90025F162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0372885C1E2583D90025F162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0372885F1E2583D90025F162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		037288611E2583D90025F162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037288671E2591AC0025F162 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		037288681E2591AC0025F162 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		0372886A1E2597050025F162 /* DataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTableViewCell.h; sourceTree = "<group>"; };
+		0372886B1E2597050025F162 /* DataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTableViewCell.m; sourceTree = "<group>"; };
+		0372886D1E25AFCC0025F162 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0372886E1E25AFCC0025F162 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		037288701E25B1E40025F162 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		037288711E25B1E40025F162 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		65F1C9AB558C33919454A85A /* Pods-MacyInterviewAsessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacyInterviewAsessment.release.xcconfig"; path = "Pods/Target Support Files/Pods-MacyInterviewAsessment/Pods-MacyInterviewAsessment.release.xcconfig"; sourceTree = "<group>"; };
+		B6902C4B0AABA8B610678DA3 /* libPods-MacyInterviewAsessment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MacyInterviewAsessment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05322876A5EC6C2BA24E160 /* Pods-MacyInterviewAsessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacyInterviewAsessment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MacyInterviewAsessment/Pods-MacyInterviewAsessment.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0372884A1E2583D90025F162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2CE2C1B820756B54640E39 /* libPods-MacyInterviewAsessment.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037288441E2583D90025F162 = {
+			isa = PBXGroup;
+			children = (
+				0372884F1E2583D90025F162 /* MacyInterviewAsessment */,
+				0372884E1E2583D90025F162 /* Products */,
+				DCA5ECAB72984896D4923F55 /* Pods */,
+				A8EC37E004B959FA888ABF46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0372884E1E2583D90025F162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0372884D1E2583D90025F162 /* MacyInterviewAsessment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0372884F1E2583D90025F162 /* MacyInterviewAsessment */ = {
+			isa = PBXGroup;
+			children = (
+				037288531E2583D90025F162 /* AppDelegate.h */,
+				037288541E2583D90025F162 /* AppDelegate.m */,
+				037288561E2583D90025F162 /* ViewController.h */,
+				037288571E2583D90025F162 /* ViewController.m */,
+				0372886D1E25AFCC0025F162 /* DetailViewController.h */,
+				0372886E1E25AFCC0025F162 /* DetailViewController.m */,
+				037288671E2591AC0025F162 /* DataModel.h */,
+				037288681E2591AC0025F162 /* DataModel.m */,
+				0372886A1E2597050025F162 /* DataTableViewCell.h */,
+				0372886B1E2597050025F162 /* DataTableViewCell.m */,
+				037288591E2583D90025F162 /* Main.storyboard */,
+				037288701E25B1E40025F162 /* MBProgressHUD.h */,
+				037288711E25B1E40025F162 /* MBProgressHUD.m */,
+				0372885C1E2583D90025F162 /* Assets.xcassets */,
+				0372885E1E2583D90025F162 /* LaunchScreen.storyboard */,
+				037288611E2583D90025F162 /* Info.plist */,
+				037288501E2583D90025F162 /* Supporting Files */,
+			);
+			path = MacyInterviewAsessment;
+			sourceTree = "<group>";
+		};
+		037288501E2583D90025F162 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				037288511E2583D90025F162 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8EC37E004B959FA888ABF46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6902C4B0AABA8B610678DA3 /* libPods-MacyInterviewAsessment.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCA5ECAB72984896D4923F55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D05322876A5EC6C2BA24E160 /* Pods-MacyInterviewAsessment.debug.xcconfig */,
+				65F1C9AB558C33919454A85A /* Pods-MacyInterviewAsessment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0372884C1E2583D90025F162 /* MacyInterviewAsessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037288641E2583D90025F162 /* Build configuration list for PBXNativeTarget "MacyInterviewAsessment" */;
+			buildPhases = (
+				BCB27ECD18E57B2326F58090 /* [CP] Check Pods Manifest.lock */,
+				037288491E2583D90025F162 /* Sources */,
+				0372884A1E2583D90025F162 /* Frameworks */,
+				0372884B1E2583D90025F162 /* Resources */,
+				0084B2F46E91CAA09FCFCD93 /* [CP] Embed Pods Frameworks */,
+				BBBBD578C8DD06668AD2F619 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacyInterviewAsessment;
+			productName = MacyInterviewAsessment;
+			productReference = 0372884D1E2583D90025F162 /* MacyInterviewAsessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		037288451E2583D90025F162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZhuoyuZhuoyu;
+				TargetAttributes = {
+					0372884C1E2583D90025F162 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = L9B63KP94R;
+					};
+				};
+			};
+			buildConfigurationList = 037288481E2583D90025F162 /* Build configuration list for PBXProject "MacyInterviewAsessment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 037288441E2583D90025F162;
+			productRefGroup = 0372884E1E2583D90025F162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0372884C1E2583D90025F162 /* MacyInterviewAsessment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0372884B1E2583D90025F162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037288601E2583D90025F162 /* LaunchScreen.storyboard in Resources */,
+				0372885D1E2583D90025F162 /* Assets.xcassets in Resources */,
+				0372885B1E2583D90025F162 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0084B2F46E91CAA09FCFCD93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacyInterviewAsessment/Pods-MacyInterviewAsessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBBBD578C8DD06668AD2F619 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacyInterviewAsessment/Pods-MacyInterviewAsessment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCB27ECD18E57B2326F58090 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		037288491E2583D90025F162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037288581E2583D90025F162 /* ViewController.m in Sources */,
+				037288691E2591AC0025F162 /* DataModel.m in Sources */,
+				037288551E2583D90025F162 /* AppDelegate.m in Sources */,
+				0372886C1E2597050025F162 /* DataTableViewCell.m in Sources */,
+				037288521E2583D90025F162 /* main.m in Sources */,
+				0372886F1E25AFCC0025F162 /* DetailViewController.m in Sources */,
+				037288721E25B1E40025F162 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		037288591E2583D90025F162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0372885A1E2583D90025F162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0372885E1E2583D90025F162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0372885F1E2583D90025F162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		037288621E2583D90025F162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		037288631E2583D90025F162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		037288651E2583D90025F162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D05322876A5EC6C2BA24E160 /* Pods-MacyInterviewAsessment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MacyInterviewAsessment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftyD2Swift.MacyInterviewAsessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		037288661E2583D90025F162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F1C9AB558C33919454A85A /* Pods-MacyInterviewAsessment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MacyInterviewAsessment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftyD2Swift.MacyInterviewAsessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		037288481E2583D90025F162 /* Build configuration list for PBXProject "MacyInterviewAsessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037288621E2583D90025F162 /* Debug */,
+				037288631E2583D90025F162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037288641E2583D90025F162 /* Build configuration list for PBXNativeTarget "MacyInterviewAsessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037288651E2583D90025F162 /* Debug */,
+				037288661E2583D90025F162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 037288451E2583D90025F162 /* Project object */;
+}
